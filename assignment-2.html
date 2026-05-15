@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sharp Cut | Premium Salon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <nav class="bg-black text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-widest text-gold-500">SHARP<span class="text-yellow-500">CUT</span></h1>
+            <ul class="hidden md:flex space-x-6 text-sm uppercase font-semibold">
+                <li><a href="#home" class="hover:text-yellow-500 transition">Home</a></li>
+                <li><a href="#services" class="hover:text-yellow-500 transition">Services</a></li>
+                <li><a href="#gallery" class="hover:text-yellow-500 transition">Gallery</a></li>
+                <li><a href="#offers" class="hover:text-yellow-500 transition">Offers</a></li>
+                <li><a href="#contact" class="hover:text-yellow-500 transition">Contact</a></li>
+            </ul>
+            <a href="#booking" class="bg-yellow-500 text-black px-5 py-2 rounded-full font-bold hover:bg-yellow-400 transition">Book Now</a>
+        </div>
+    </nav>
+
+    <section id="home" class="relative h-[80vh] flex items-center justify-center bg-gray-900 text-white text-center">
+        <div class="absolute inset-0 opacity-50 bg-[url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center"></div>
+        <div class="relative z-10 px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Elite Grooming for Men</h2>
+            <p class="text-lg md:text-xl mb-8 text-gray-300">Style is a reflection of your attitude and your personality.</p>
+            <div class="space-x-4">
+                <a href="#services" class="border-2 border-white px-8 py-3 rounded hover:bg-white hover:text-black transition">Our Services</a>
+                <a href="#booking" class="bg-yellow-500 text-black px-8 py-3 rounded font-bold hover:bg-yellow-400">Make Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 container mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold mb-12">Our Services & Pricing</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-lg shadow-lg border-b-4 border-yellow-500">
+                <i class="fas fa-cut text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="text-2xl font-bold mb-2">Classic Haircut</h3>
+                <p class="text-gray-600 mb-4">Precision cutting and styling tailored to your face shape.</p>
+                <span class="text-2xl font-bold text-gray-800">$150</span>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-lg border-b-4 border-yellow-500">
+                <i class="fas fa-broom text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="text-2xl font-bold mb-2">Beard Trim</h3>
+                <p class="text-gray-600 mb-4">Professional shaping and conditioning for your beard.</p>
+                <span class="text-2xl font-bold text-gray-800">$50</span>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-lg border-b-4 border-yellow-500">
+                <i class="fas fa-spa text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="text-2xl font-bold mb-2">Luxury Facial</h3>
+                <p class="text-gray-600 mb-4">Deep cleansing and hydration for a fresh look.</p>
+                <span class="text-2xl font-bold text-gray-800">$250</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-20 bg-gray-100 px-4 ">
+        <div class="max-w-2xl mx-auto bg-white p-10 rounded-2xl shadow-2xl">
+            <h2 class="text-3xl font-bold mb-6 text-center">Book Your Slot</h2>
+    <div class="w-full max-w-md bg-[#0f172a] rounded-[2rem] p-8 shadow-2xl border border-white/10">
+        
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-indigo-600/20 text-indigo-400 rounded-2xl mb-4 border border-indigo-500/30">
+                <i class="fas fa-user-plus text-2xl"></i>
+            </div>
+            <h2 class="text-2xl font-extrabold text-white">Client Registration</h2>
+            <p class="text-slate-400 text-sm mt-2">AI Agent will save these details for future bookings.</p>
+        </div>
+
+        <form action="https://formsubmit.co/shaikh.mshahid2010@gmail.com" method="POST" class="space-y-5">
+            
+            <div>
+                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Full Name</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-500">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <input type="text" placeholder="Name" required
+                        class="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-11 pr-4 text-white placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all">
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Email Address</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-500">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <input type="email" placeholder="@example.com" required
+                        class="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-11 pr-4 text-white placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all">
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Phone Number</label>
+                <div class="relative">
+                    <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-500">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    <input type="tel" placeholder="Phone Number" required
+                        class="w-full bg-white/5 border border-white/10 rounded-xl py-3 pl-11 pr-4 text-white placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all">
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <button type="submit" 
+                    class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-500/20 transition-all duration-300 transform hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-2">
+                    <span>Confirm & Book Now</span>
+                    <i class="fas fa-arrow-right text-sm"></i>
+                </button>
+            </div>
+
+        </form>
+        <p class="text-center text-[10px] text-slate-500 mt-6 uppercase tracking-tighter">
+            <i class="fas fa-shield-alt mr-1"></i> Data is securely captured by SalonAI Agent
+        </p>
+    </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12 text-center">Style Gallery</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img src="/New folder/images.jpeg" class="rounded-lg hover:scale-105 transition duration-300 shadow-md">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=400&q=80" class="rounded-lg hover:scale-105 transition duration-300 shadow-md">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80" class="rounded-lg hover:scale-105 transition duration-300 shadow-md">
+            <img src="/New folder/new folder.jpeg" class="rounded-lg hover:scale-105 transition duration-300 shadow-md">
+        </div>
+    </section>
+
+    <section id="offers" class="py-16 bg-yellow-500 text-black text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-black mb-4 uppercase italic">First Visit Special!</h2>
+            <p class="text-2xl mb-6">Get <strong>20% OFF</strong> on your first haircut & beard combo.</p>
+            <p class="font-bold border-2 border-black inline-block px-6 py-2">Use Code: FRESH2024</p>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-black text-gray-400 py-12 px-4">
+        <div class="container mx-auto grid md:grid-cols-3 gap-12 text-center md:text-left">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4 italic">SHARP CUT</h3>
+                <p>Bringing back the classic art of barbering. We don't just cut hair, we craft styles.</p>
+            </div>
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">Visit Us</h3>
+                <p>123 Barber Street, Karachi, Pakistan</p>
+                <p class="mt-2">Open: Mon - Sun (10 AM - 10 PM)</p>
+            </div>
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">Connect</h3>
+                <p><i class="fab fa-whatsapp text-green-500"></i> +92 300 1234567</p>
+                <div class="flex justify-center md:justify-start space-x-4 mt-4">
+                    <a href="#" class="text-2xl hover:text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-2xl hover:text-white"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-10 pt-6 text-center text-sm">
+            &copy; 2024 Sharp Cut Salon. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

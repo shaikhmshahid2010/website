@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalonFlow AI | Your 24/7 Virtual Front Desk</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="flex items-center justify-between px-10 py-6 bg-white shadow-sm sticky top-0 z-50">
+        <div class="text-2xl font-bold text-indigo-600 tracking-tight">SalonFlow AI</div>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#features" class="hover:text-indigo-600">Features</a>
+            <a href="#platforms" class="hover:text-indigo-600">Platforms</a>
+            <a href="#benefits" class="hover:text-indigo-600">Why Us</a>
+        </div>
+        <button class="bg-indigo-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-indigo-700 transition">Get Started</button>
+    </nav>
+
+    <header class="max-w-7xl mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+            Stop Chasing DMs. <br>
+            <span class="text-indigo-600">Start Closing Bookings.</span>
+        </h1>
+        <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
+            The only AI Salon Manager that acts like a real staff member. It talks, recommends, upsells, and books appointments 24/7 across all social platforms.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <button class="bg-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-bold shadow-lg hover:bg-indigo-700">Watch Demo</button>
+            <button class="border-2 border-gray-300 px-8 py-4 rounded-xl text-lg font-bold hover:bg-gray-100">View Pricing</button>
+        </div>
+    </header>
+
+    <section id="features" class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Designed to Replace the Chaos</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Smart Booking</h3>
+                    <p class="text-gray-600">Locks time slots instantly. No "let me check the book" or human delays. Pure automation.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Sales Agent Mode</h3>
+                    <p class="text-gray-600">Doesn't just list services. It suggests combos (Hair + Beard) and premium options to increase ticket size.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 text-2xl">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Customer Memory</h3>
+                    <p class="text-gray-600">Remembers visit history. Greets regulars by name and knows exactly what they liked last time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="platforms" class="py-20 bg-indigo-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">One Brain. Every Platform.</h2>
+            <p class="text-indigo-200 mb-12">Sync conversations across WhatsApp, IG, FB, and Telegram.</p>
+            <div class="flex flex-wrap justify-center gap-10 text-5xl opacity-80">
+                <i class="fab fa-whatsapp hover:text-green-400 cursor-pointer"></i>
+                <i class="fab fa-instagram hover:text-pink-400 cursor-pointer"></i>
+                <i class="fab fa-facebook-messenger hover:text-blue-400 cursor-pointer"></i>
+                <i class="fab fa-telegram hover:text-blue-300 cursor-pointer"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 border-t">
+        <p>&copy; 2024 SalonFlow AI. Built for Businesses that don't sleep.</p>
+    </footer>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="NewAgent"
+  agent-id="dd5b3ad0-831c-49ac-b0f2-067bd2581ef8"
+  language-code="en"
+></df-messenger>
+
+
+
+</body>
+</html>
